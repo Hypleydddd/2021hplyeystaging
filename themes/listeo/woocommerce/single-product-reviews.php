@@ -98,8 +98,8 @@ if ( ! comments_open() ) {
 						$comment_form['comment_field'] = '<p class="comment-form-rating"><label for="rating">' . esc_html__( 'Your Rating', 'listeo' ) .'</label><select name="rating" id="rating">
 							<option value="">' . esc_html__( 'Rate&hellip;', 'listeo' ) . '</option>
 							<option value="5">' . esc_html__( 'Perfect', 'listeo' ) . '</option>
-							<option value="4">' . esc_html__( 'Good', 'listeo' ) . '</option>
-							<option value="3">' . esc_html__( 'Average', 'listeo' ) . '</option>
+							<option value="4">' . esc_html__( 'Fast', 'listeo' ) . '</option>
+							<option value="3">' . esc_html__( 'Standard', 'listeo' ) . '</option>
 							<option value="2">' . esc_html__( 'Not that bad', 'listeo' ) . '</option>
 							<option value="1">' . esc_html__( 'Very Poor', 'listeo' ) . '</option>
 						</select></p>';

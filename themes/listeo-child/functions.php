@@ -446,7 +446,7 @@ function get_vendor_average_response_time($user_id){
 	if($alltime > 0 && $countCon[0]->count > 0){
 		return secondsToResponseTime($alltime / $countCon[0]->count);
 	}else{
-		return "within 24 hours";
+		return "within 12 hours";
 	}
 }
 
@@ -488,9 +488,9 @@ function secondsToResponseTime($ss) {
 	$d = floor(($ss%2592000)/86400);
 	$M = floor($ss/2592000);
 
-	$time = "within 24 Hours";
+	$time = "within 12 Hours";
 	if($M == 0){
-		$time = $d > 1 ? "within 24 Hours" : 'within 24 Hours';
+		$time = $d > 1 ? "within 12 Hours" : 'within 12 Hours';
 	}
 	if($d == 0){
 		$time = $h > 1 ? "within $h hours" : "within $h hour";
