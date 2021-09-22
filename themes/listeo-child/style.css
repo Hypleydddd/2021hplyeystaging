@@ -2540,7 +2540,7 @@ border: 0px solid #dbdbdb;
     height: 34px;
     width: 34px;
     /*background-color: #e60023;*/
-    background-color: #f3103c9c;
+    background-color: #ffffff78;
 }
 .wishlist_like_icon:before {
     content: "\f08a";
@@ -2808,7 +2808,7 @@ p.nt-ver.em-ic:before{
 
 p.mem-bdg {
     font-size: 15px;
-        width: max-content;
+        width: 100%;
 }
 
 .ver-ico, .nt-ver{
