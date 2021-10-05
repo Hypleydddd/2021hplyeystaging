@@ -1,4 +1,5 @@
 <?php
+/* comment*/
 if (!defined('ABSPATH')) {
 	exit;
 }
