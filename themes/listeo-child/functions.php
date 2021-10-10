@@ -598,7 +598,7 @@ add_action( 'widgets_init', 'itf_load_widget' );
 
 function listeo_get_google_reviews($place_id,$post){
 	
-		$api_key = 'AIzaSyBYyQNdgo1GZ-f8x9ntJrZ1RWDrHjIo4Rk';
+		$api_key = 'AIzaSyDQ1zPWSwNNoAJ6GwAfl3fo47r2NPGFOkc';
 		
 		$url = "https://maps.googleapis.com/maps/api/place/details/json?key={$api_key}&placeid={$place_id}";
 		$resp_json = wp_remote_get($url);
